@@ -288,6 +288,8 @@ margin-bottom: 30px;
 
 
 /* Portfolio */
+
+
 .title-portf{
      position: absolute; 
   width: 1px; 
@@ -352,13 +354,11 @@ padding: 0px;
   border: 1px solid #eeeeee;
   width: 370px;
   height: 404px;
-  
 }
 .portfolio-list:not(:nth-child(3n)){
 margin-right: 30px;
 
 }
-
 .portfolio-list{
   margin-top: 30px;
 }
@@ -371,8 +371,8 @@ margin-right: 30px;
   color: var(--primeary-color-text);
 }
 .portfolio-text {
-    margin: 0;
-    padding: 0;
+margin: 0;
+ padding: 0;
   font-size: 16px;
   line-height: 1.875;
 }
