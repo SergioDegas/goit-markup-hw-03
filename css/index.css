@@ -249,10 +249,11 @@ color: var(--secondary-color-text);
 .image{
 display:block; 
 display: flex;
+justify-content: center;
 }
 /* .image-list{
-    max-width:370px ;
-display:block;    
+   margin-right: auto;
+   margin-left: auto;
 } */
 .image-list:not(:last-child){
 margin-right: 30px;
@@ -365,13 +366,13 @@ border-radius: 4px
 .portfolio {
     margin: 0;
     padding: 0;
-
+justify-content: center;
     display: flex;
 flex-wrap: wrap;
 
 }
 .portfolio-list {
-margin: 0px auto;
+margin: 0px ;
 display: block;
 padding: 0px;
   background:var(--secondary-beckgrond-color);
